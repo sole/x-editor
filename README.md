@@ -29,6 +29,10 @@ Use CSS.
 
 ## API
 
+### Key bindings
+
+TO DO
+
 ### Methods
 
 TO DO
