@@ -27,10 +27,17 @@ Example: TODO.
 
 Use CSS.
 
-## Methods
+## API
+
+### Methods
 
 TO DO
 
-## Events
+### Events
 
 TO DO
+
+## Things that need to be done
+
+* Fill the TO DO gaps.
+* Use Vulcanise or something similar to generate a distributable file with only one JavaScript file that registers the element - so it can be used either with HTML imports or with just including such file.
