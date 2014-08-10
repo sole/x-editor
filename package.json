@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/sole/x-editor",
   "dependencies": {
-    "codemirror": "^4.4.0",
+    "code-mirror": "^3.22.0",
     "gulp": "^3.8.7",
     "gulp-browserify": "^0.5.0",
     "gulp-jshint": "^1.8.4",

@@ -1,4 +1,4 @@
-var CodeMirror = require('codemirror');
+var CodeMirror = require('code-mirror');
 
 // MAGIC!
 function trimInitialTabs(str) {
