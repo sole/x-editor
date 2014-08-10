@@ -19,7 +19,7 @@ gulp.task('build-js', function() {
     //insertGlobals: true,
     debug: !gulp.env.production // TODO fix to get rid of the deprecated notice
   }))
-  .pipe(rename('bundle.js'))
+  .pipe(rename('x-editor.bundle.js'))
   .pipe(gulp.dest(DIST));
 });
 
