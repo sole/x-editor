@@ -1,3 +1,6 @@
+var CodeMirrorMatchBrackets = require('code-mirror/addon/edit/matchbrackets');
+var CodeMirrorTrailingSpace = require('code-mirror/addon/edit/trailingspace');
+var CodeMirrorActiveLine = require('code-mirror/addon/selection/active-line');
 var CodeMirror = require('code-mirror');
 
 // MAGIC!
@@ -79,11 +82,12 @@ proto.onCodeLoaded = function(code) {
       that.replaceChild(el, ta);
     }, {
       value: codeValue,
-      /*lineWrapping: true,
+      lineWrapping: true,
       lineNumbers: true,
       styleActiveLine: true,
       matchBrackets: true,
-      showTrailingSpace: true,*/
+      showTrailingSpace: true,
+      theme: require('code-mirror/theme/the-matrix')
     }
   );
   this.cm = cm;
